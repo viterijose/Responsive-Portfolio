@@ -1,9 +1,9 @@
 
-
-html , body{
-    /* background: url(https://s-media-cache-ak0.pinimg.com/originals/69/98/fd/6998fd867b0eaed370b95607cb8be8a6.jpg) no-repeat center center fixed; */
+ html{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/69/98/fd/6998fd867b0eaed370b95607cb8be8a6.jpg) no-repeat center center fixed;
     height:100%;
     width:100%;
+    background-repeat: repeat;
     margin:0;
 }
     .header {
@@ -11,9 +11,6 @@ html , body{
         height: 126px;
         width:120%;
         margin-top:-50px;
-        position: absolute;
-        top: 0;
-        left: 0;
         right: 0;
         border:0;
         margin:0;
@@ -27,9 +24,35 @@ html , body{
         color: rgb(154,163,164);
         line-height:120px;
         font-size:10px;
-        position: relative;
-        bottom: -1030px;
-        left: 0px;
+        margin-top:40px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    .footer-c{
+        text-align:center;
+        height: 120px;
+        width: 120%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:40px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    .footer-a{
+        text-align:center;
+        height: 120px;
+        width: 120%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:40px;
         background-color: rgb(102,102,102);
         border: 10px;
         border-top-style: solid;
@@ -126,6 +149,128 @@ html , body{
             left: 840px;
 
         }
+        .site-link-1-a {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 580px;
+
+        }
+
+        .site-link-2-a {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 800px;
+        }
+
+        .site-link-3-a {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 840px;
+
+        }
+        .site-link-1-c {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 580px;
+
+        }
+
+        .site-link-2-c {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 800px;
+        }
+
+        .site-link-3-c {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 840px;
+
+        }
         section{
             width:650px;
             height: 600px;
@@ -149,8 +294,6 @@ html , body{
                 left:40px;
                 margin:0px;
                 padding:0 20px 30px 0px;
-                border:0;
-                border-bottom: 3px solid rgb(203, 204, 207);
             }
             .Random-img{
 
@@ -299,6 +442,24 @@ html , body{
         top: 202px;
         right: 0;
     }
+    .connect-a{
+        float: right;
+        height: 200px;
+        width: 270px;
+        background-color: white;
+        position: absolute;
+        top: 202px;
+        right: 0;
+    }
+    .connect-c{
+        float: right;
+        height: 200px;
+        width: 270px;
+        background-color: white;
+        position: absolute;
+        top: 202px;
+        right: 0;
+    }
         #img1:hover{
             background-image: url(https://cdn1.iconfinder.com/data/icons/picons-social/57/github-64.png);
         }
@@ -347,45 +508,95 @@ html , body{
             margin: 0px;
             border: 0;
             padding: 0px 20px 10px 0px;
-            border-bottom: 2px solid rgb(232, 233, 236);
             position: relative;
             top: 15px;
             left: 30px;
         }
+        hr{
+            display:block;
+            margin: 0.5em 20px 0.5em 30px;
+            border-style: inset;
+            border-width: 1px;
+        }
 @media only screen and (max-width: 640px) {
-    body{background-color:green;}
+
+    .container{
+        margin-bottom:50px;
+        
+    }
     .header{
-        position: absolute;
-        top:0;
-        left:0; 
-        width:100%;
-        height:170px;
+        width:156%;
+        height:150px;
+    }
+    .heading-2 {
+
+        font-size: 40px;
+
     }
     .site-heading-1{
         position: absolute;
-        bottom: 0px;
-        left: -175px;
+        top: -30px;
+        left: 0;
         width: 100%;
         text-align: center;
         font-size: 42px;
     }
-    .site-link-1{
+    .site-link-1-a{
+        font-size: 18px;
         position: absolute;
-        top: 135px;
-        left: 100px;
+        bottom:  1135px;
+        left: 140px;
+    }
+    .site-link-2-a{
+        font-size: 18px;
+        position: absolute;
+        bottom:  1135px;
+        left: 460px;
+    }
+    .site-link-3-a{
+        font-size: 18px;
+        position: absolute;
+        bottom:  1135px;
+        left: 750px;
+    }
+    .site-link-1-c{
+        font-size: 18px;
+        position: absolute;
+        bottom:  655px;
+        left: 140px;
+    }
+    .site-link-2-c{
+        font-size: 18px;
+        position: absolute;
+        bottom:  655px;
+        left: 460px;
+    }
+    .site-link-3-c{
+        font-size: 18px;
+        position: absolute;
+        bottom:  655px;
+        left: 750px;
+    }
+    .site-link-1{
+        font-size: 18px;
+        position: absolute;
+        bottom:  2247px;
+        left: 140px;
     }
     .site-link-2{
+        font-size: 18px;
         position: absolute;
-        top: 135px;
-        left: 300px;
+        bottom:  2247px;
+        left: 460px;
     }
     .site-link-3{
+        font-size: 18px;
         position: absolute;
-        top: 135px;
-        left: 500px;
+        bottom:  2247px;
+        left: 750px;
     }
     section {
-        width: 630px;
+        width: 100%;
         height: 100%;
         padding: 0;
         margin: 0;
@@ -406,13 +617,13 @@ html , body{
     }
     #flexbox {
         height: 400px;
-        width: 450px;
+        width: 560px;
         padding: 10px 25px 20px 0;
         margin: 0 auto;
     }
     #img4 {
         height: 400px;
-        width: 450px;
+        width: 560px;
     }
     #game {
         font-family: 'Georgia';
@@ -421,20 +632,935 @@ html , body{
         text-align: center;
         line-height: 75px;
         height: 75px;
-        width: 450px;
+        width: 560px;
         background-color: rgb(15, 163, 138);
         position: relative;
         bottom: 80px;
         left: 0;
     }
-    /* .connect {
-        float: right;
+    .connect {
         height: 200px;
-        width: 630px;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 270px;
+        left: 0;
+        margin-bottom: 50px;
+    }
+    .connect-a {
+        height: 200px;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 270px;
+        left: 0;
+        margin-bottom: 50px;
+    }
+    .connect-c {
+        height: 200px;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 120px;
+        left: 0px;
+        margin-bottom: 50px;
+    }
+    .heading-3 {
+
+        font-size: 30px;
+        width: 270px;
+
+        padding: 0px 20px 25px 0px;
+
+    }
+    #img1{
+        position: relative;
+        left:40px;
+    }
+    #img2{
+        position: relative;
+        left:60px;
+    }
+    #img3{
+        position: relative;
+        left:80px;
+    }
+    .footer{
+        text-align:center;
+        height: 120px;
+        width: 156%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:250px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    .footer-a{
+        text-align:center;
+        height: 120px;
+        width: 156%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:250px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    #Profile-Pic {
+        border: 10px;
+        padding: 10px 250px 10px 250px;
+        width: 400px;
+        height: 424px;
+
+    }
+    p {
+
+        font-size: 30px;
+        line-height: 60px;
+
+        padding: 50px;
+
+    }
+    .inputs {
+
+        height: 640px;
+
+    }
+    button {
+        margin: 20px;
+  
+    }
+    .footer-c{
+        text-align:center;
+        height: 120px;
+        width: 156%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:260px;
+
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+
+} 
+@media only screen  and (min-width: 641px) {
+    .header{
+        width:160%;
+        height:150px;
+    }
+    section {
+        width: 100%;
+        height: 600px;
+
+    }
+    #flexbox{
+        height:300px;
+        width:330px;
+        padding:10px 25px 20px 0;
+        margin: 0 auto;
+    }
+    #img4{
+        height: 300px;
+        width: 330px;
+    }
+    #game {
+  
+        font-size: 25px;
+
+        line-height: 50px;
+        height: 50px;
+        width: 330px;
+    }
+    .Random-img {
+        height: 1000px;
+    }
+    .connect {
+
+        height: 200px;
+        width: 960px;
         background-color: white;
         position: absolute;
-        bottom: -350px;
-        left: 20px;
-    } */
+        top: 1350px;
+        right: 20px;
+    }
+    .connect-a {
+
+        height: 200px;
+        width: 960px;
+        background-color: white;
+        position: absolute;
+        top: 870px;
+        right: 20px;
+    }
+    .connect-c {
+
+        height: 200px;
+        width: 960px;
+        background-color: white;
+        position: absolute;
+        top: 870px;
+        right: 20px;
+    }
+    .footer {
+       
+        width: 134%;
+      
+        margin-top: 550px;
+        
+    }
+    .footer-a {
+       
+        width: 134%;
+      
+        margin-top: 100px;
+        
+    }
+    .footer-c {
+       
+        width: 160%;
+      
+        margin-top: 100px;
+        
+    }
+    p {
+        
+        font-size: 25px;
+        line-height: 45px;
+     
+        padding: 40px 30px 20px 40px;
+
+    }
+    #Profile-Pic {
+        border: 10px;
+        float: left;
+        padding: 50px 30px 10px;
+        width: 280px;
+        height: 312px;
+    }
+}
+/* @media only screen  and (max-width: 768px) {
+    .header{
+        width:160%;
+        height:150px;
+    }
+    section {
+        width: 100%;
+        height: 600px;
+
+    }
+    #flexbox{
+        height:300px;
+        width:330px;
+        padding:10px 25px 20px 0;
+        margin: 0 auto;
+    }
+    #img4{
+        height: 300px;
+        width: 330px;
+    }
+    #game {
+  
+        font-size: 25px;
+
+        line-height: 50px;
+        height: 50px;
+        width: 330px;
+    }
+    .Random-img {
+        height: 1000px;
+    }
+    .connect {
+
+        height: 200px;
+        width: 960px;
+        background-color: white;
+        position: absolute;
+        top: 1350px;
+        right: 20px;
+    }
+    .connect-a {
+
+        height: 200px;
+        width: 960px;
+        background-color: white;
+        position: absolute;
+        top: 870px;
+        right: 20px;
+    }
+    .connect-c {
+
+        height: 200px;
+        width: 960px;
+        background-color: white;
+        position: absolute;
+        top: 870px;
+        right: 20px;
+    }
+    .footer {
+       
+        width: 134%;
+      
+        margin-top: 550px;
+        
+    }
+    .footer-a {
+       
+        width: 134%;
+      
+        margin-top: 100px;
+        
+    }
+    .footer-c {
+       
+        width: 160%;
+      
+        margin-top: 100px;
+        
+    }
+    p {
+        
+        font-size: 25px;
+        line-height: 45px;
+     
+        padding: 40px 30px 20px 40px;
+
+    }
+    #Profile-Pic {
+        border: 10px;
+        float: left;
+        padding: 50px 30px 10px;
+        width: 280px;
+        height: 312px;
+    }
+} */
+@media only screen  and (min-width: 980px) {
+    .header{
+        width:160%;
+        height:150px;
+    }
+    .container {
+        position: relative;
+        top: -142px;
+        left: 160px;
+    }
+    section {
+        width: 600px;
+        height: 910px;
+
+    }
+    #flexbox{
+        height:320px;
+        width:350px;
+        padding:10px 25px 20px 0;
+        margin: 0 auto;
+    }
+    #img4{
+        height: 320px;
+        width: 350px;
+    }
+    #game {
+  
+        font-size: 25px;
+
+        line-height: 50px;
+        height: 50px;
+        width: 350px;
+    }
+    .Random-img {
+        height: 1800px;
+        width:600px;
+    }
+    .connect {
+
+        height: 200px;
+        width:280px;
+        background-color: white;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+    }
+    .connect-a {
+
+        height: 200px;
+        width: 280px;
+        background-color: white;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+    }
+    .connect-c {
+
+        height: 200px;
+        width: 280px;
+        background-color: white;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+    }
+    .footer {
+       
+        width: 134%;
+      
+        margin-top: 1150px;
+        
+    }
+    .footer-a {
+       
+        width: 134%;
+      
+        margin-top: -30px;
+        
+    }
+    .footer-c {
+       
+        width: 160%;
+      
+        margin-top: 100px;
+        
+    }
+    p {
+        
+        font-size: 25px;
+        line-height: 45px;
+     
+        padding: 40px 30px 20px 40px;
+
+    }
+    #Profile-Pic {
+        border: 10px;
+        float: left;
+        padding: 50px 30px 10px;
+        width: 280px;
+        height: 312px;
+    }
+    button {
+        position: relative;
+        bottom: 175px;
+        right: -35px;
+    }
+}
+@media only screen  and (min-width: 1200px){
+    .header {
+        background-color: white;
+        height: 126px;
+        width:120%;
+        margin-top:-50px;
+        right: 0;
+        border:0;
+        margin:0;
+        padding:0;
+    }
+    .footer{
+        text-align:center;
+        height: 120px;
+        width: 120%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:40px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    .footer-c{
+        text-align:center;
+        height: 120px;
+        width: 120%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:40px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    .footer-a{
+        text-align:center;
+        height: 120px;
+        width: 120%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
+        margin-top:40px;
+        background-color: rgb(102,102,102);
+        border: 10px;
+        border-top-style: solid;
+        border-top-color: rgb(15, 163, 138);
+    }
+    .container{
+        margin:0 auto;
+        padding: 20px;
+        padding-bottom:120px;
+        width: 960px;
+        min-height:100%;
+        position: relative;
+        top:-142px;
+        left:0;
+    }
+        .site-heading-1 {
+            font-family: 'Georgia';
+            font-size: 32px;
+            color: whitesmoke;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            line-height: 118px;
+            text-align:center;
+            background-color: rgb(76,168,163);
+            height: 118px;
+            width: 255px;
+            margin:0px;
+            border:0px;
+            padding: 0px; 
+            position: relative;
+            bottom:0;
+            left:0;
+            top: 0;
+        }
+
+        .site-link-1 {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 580px;
+
+        }
+
+        .site-link-2 {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 800px;
+        }
+
+        .site-link-3 {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 840px;
+
+        }
+        .site-link-1-a {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 580px;
+
+        }
+
+        .site-link-2-a {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 800px;
+        }
+
+        .site-link-3-a {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 840px;
+
+        }
+        .site-link-1-c {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 580px;
+
+        }
+
+        .site-link-2-c {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 800px;
+        }
+
+        .site-link-3-c {
+            font-family: 'Arial';
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: rgb(180,183,188);
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-align: center;
+            line-height: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border:0px;
+            position: relative;
+            bottom: 60px;
+            left: 840px;
+
+        }
+        section{
+            width:600px;
+            height: 600px;
+            padding:0;
+            margin:0;
+            background-color: white;
+            position: relative;
+            top:35px;
+            left:0px;
+            
+        }
+            .heading-2 {
+                width: 550px;
+                font-family: 'Georgia';
+                font-size: 30px;
+                color: rgb(15, 163, 138);
+                word-spacing: 10px;
+                text-align: left;
+                position: relative;
+                top: 20px;
+                left:40px;
+                margin:0px;
+                padding:0 20px 30px 0px;
+            }
+            .Random-img{
+
+                display: flex;
+                align-items: center;
+                flex-flow: column wrap;
+                align-content: center;
+                position: relative;
+                left:0;
+                top:40px;
+                height: 700px;
     
-} 
+            }
+                #flexbox{
+                    height:200px;
+                    width:230px;
+                    padding:10px 25px 20px 0;
+                    margin: 0 auto;
+                }
+                    #img4{
+                        height: 200px;
+                        width: 230px;
+                    }
+                    #game{
+                        font-family: 'Georgia';
+                        font-size: 18px;
+                        color: whitesmoke;
+                        text-align: center;
+                        line-height:40px;
+                        height:40px;
+                        width: 230px;
+                        background-color: rgb(15, 163, 138);
+                        position: relative;
+                        bottom:80px;
+                        left:0;
+                    }
+            .Tags{
+                height:400px;
+                width:520px;
+                float: left;
+                position: relative;
+                top: 20px;
+                left: 35px;
+            }
+                .heading-name {
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    color: rgb(104, 101, 101);
+                    text-align: left;
+                    line-height: 20px;
+                    margin: 30px 0 60px 0;
+                }
+                .heading-email {
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    color: rgb(104, 101, 101);
+                    text-align: left;
+                    line-height: 30px;
+                    margin: 30px 0 60px 0;
+                }
+                .heading-message {
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    color: rgb(104, 101, 101);
+                    text-align: left;
+                    line-height: 30px;
+                    margin: 30px 0 60px 0;
+                }
+            button:hover{
+                background-color: rgb(9, 112, 95);
+            }
+            button{               
+                height: 40px;
+                width: 100px;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                Font-size: 18px;
+                Color: white;
+                background-color: rgb(15, 163, 138);
+                position: relative;
+                bottom: -475px;
+                right: 485px;
+            }    
+            input[type=text] {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 14px;
+                color: rgb(104, 101, 101);
+                text-align: left;
+                width: 520px;
+                padding: 10px;
+                margin:  0;
+                box-sizing: border-box;
+                float: left;
+                position: relative;
+                bottom: 320px;
+                left: 35px;
+            }
+            input[type=text1] {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 14px;
+                color: rgb(104, 101, 101);
+                text-align: left;
+                width: 520px;
+                padding: 10px;
+                margin: 0;
+                box-sizing: border-box;
+                float: left;
+                position: relative;
+                bottom: 270px;
+                left: 35px;
+            }
+            input[type=text2] {
+                width: 520px;
+                height:200px;
+                padding: 10px;
+                margin:  0;
+                box-sizing: border-box;
+                float: left;
+                position: relative;
+                bottom: 215px;
+                left: 35px;
+            }      
+            #Profile-Pic{
+                border: 10px;
+                float: left;
+                padding: 50px 10px 10px;
+                width:200px;
+                height:212px;
+            }
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                line-height: 40px;
+                font-weight: lighter;
+                color: rgb(143,144,146);
+                text-align: justify;
+                padding: 20px;
+                border: 20px 40px 20px 20px;
+            }
+    .connect{
+        float: right;
+        height: 200px;
+        width: 270px;
+        background-color: white;
+        position: absolute;
+        top: 202px;
+        right: 0;
+    }
+    .connect-a{
+        float: right;
+        height: 200px;
+        width: 270px;
+        background-color: white;
+        position: absolute;
+        top: 202px;
+        right: 0;
+    }
+    .connect-c{
+        float: right;
+        height: 200px;
+        width: 270px;
+        background-color: white;
+        position: absolute;
+        top: 202px;
+        right: 0;
+    }
+        #img1:hover{
+            background-image: url(https://cdn1.iconfinder.com/data/icons/picons-social/57/github-64.png);
+        }
+        #img1{
+            background-image: url(https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/github2-64.png);
+            display:block;
+            height: 64px;
+            width: 64px;
+            position: relative;
+            float:left;
+            left:20px;
+            top:40px;
+        }
+        #img2:hover{
+            background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-64.png);
+        }
+        #img2{
+            background-image: url(https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/linkedin-64.png);
+            display:block;
+            height: 64px;
+            width: 64px;
+            position: relative;
+            float:left;
+            left:40px;
+            top:40px;
+        }
+        #img3:hover{
+            background-image: url(https://cdn2.iconfinder.com/data/icons/well-known-1/1024/StackOverflow-64.png);
+        }
+        #img3{
+            background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-special/256/stackoverflow-64.png);
+            display:block;
+            height: 64px;
+            width: 64px;
+            position: relative;
+            float:left;
+            left:60px;
+            top:40px;
+        }
+        .heading-3 {
+            font-family: 'Georgia';
+            font-size: 24px;
+            width: 208px;
+            color: rgb(15, 163, 138);
+            text-align: left;
+            margin: 0px;
+            border: 0;
+            padding: 0px 20px 10px 0px;
+            position: relative;
+            top: 15px;
+            left: 30px;
+        }
+        hr{
+            display:block;
+            margin: 0.5em 20px 0.5em 30px;
+            border-style: inset;
+            border-width: 1px;
+        }
+}
